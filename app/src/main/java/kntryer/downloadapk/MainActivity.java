@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        updateApk = new UpdateApk("1.9.11", "", "http://7xki5q.com1.z0.glb.clouddn.com/baobao.apk", 0);
+        updateApk = new UpdateApk("1.9.11", "", "http://7xki5q.com1.z0.glb.clouddn.com/dibao.apk", 0);
         findViewById(R.id.btn_update_y).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
