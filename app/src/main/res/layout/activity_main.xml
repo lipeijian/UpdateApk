@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_update_y"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="检查更新版本（需要更新）"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/btn_update_n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="检查更新版本（不需要更新）"
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>
